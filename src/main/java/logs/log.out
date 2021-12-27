@@ -1,0 +1,6 @@
+2021-12-27 14:12:896 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-27 14:12:774 INFO  OurStorePage :82 - scroll on map:[[ChromeDriver: chrome on WINDOWS (1c9e7e25eb5cf6715512b34e71ab83de)] -> id: map]
+2021-12-27 14:12:232 INFO  OurStorePage :89 - scroll on map:[[ChromeDriver: chrome on WINDOWS (1c9e7e25eb5cf6715512b34e71ab83de)] -> id: map]
+2021-12-27 14:12:927 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-27 15:12:114 INFO  OurStorePage :82 - scroll on map:[[ChromeDriver: chrome on WINDOWS (51c321f5985e4756fb36c1eaea7c905f)] -> id: map]
+2021-12-27 15:12:540 INFO  OurStorePage :89 - scroll on map:[[ChromeDriver: chrome on WINDOWS (51c321f5985e4756fb36c1eaea7c905f)] -> id: map]

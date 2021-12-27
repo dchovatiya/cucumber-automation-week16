@@ -1,0 +1,191 @@
+2021-12-23 22:12:392 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 22:12:162 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 22:12:743 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 23:12:509 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 23:12:604 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 23:12:05 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 23:12:889 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 23:12:703 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-23 23:12:259 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 00:12:640 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 00:12:533 INFO  OurStorePage :58 - select store:[[ChromeDriver: chrome on WINDOWS (ce0070275c55f4cf8e8b41254fd578d3)] -> xpath:  //ul[@class='toggle-footer']//li//a]
+2021-12-24 00:12:558 INFO  OurStorePage :58 - select store:[[ChromeDriver: chrome on WINDOWS (ce0070275c55f4cf8e8b41254fd578d3)] -> xpath:  //ul[@class='toggle-footer']//li//a]
+2021-12-24 00:12:579 INFO  OurStorePage :58 - select store:[[ChromeDriver: chrome on WINDOWS (ce0070275c55f4cf8e8b41254fd578d3)] -> xpath:  //ul[@class='toggle-footer']//li//a]
+2021-12-24 23:12:34 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:918 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:894 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:878 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:570 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:422 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:254 INFO  CasualDress :29 - Mouse Hover to :[[ChromeDriver: chrome on WINDOWS (cee39902cab797afecdfa48e604c9d35)] -> xpath: //img[@title='Printed Dress']]
+2021-12-24 23:12:378 INFO  CasualDress :37 - click on add to cart[[ChromeDriver: chrome on WINDOWS (cee39902cab797afecdfa48e604c9d35)] -> xpath: //a[@title='Add to cart']//span]
+2021-12-24 23:12:770 INFO  ProductOrderPage :37 - click on checkout[[ChromeDriver: chrome on WINDOWS (cee39902cab797afecdfa48e604c9d35)] -> xpath: //a[@title='Proceed to checkout']//span]
+2021-12-24 23:12:863 INFO  ProductOrderPage :42 - delete button[[ChromeDriver: chrome on WINDOWS (cee39902cab797afecdfa48e604c9d35)] -> xpath: //i[@class='icon-trash']]
+2021-12-24 23:12:891 INFO  ProductOrderPage :47 - delete message[[ChromeDriver: chrome on WINDOWS (cee39902cab797afecdfa48e604c9d35)] -> xpath: //p[contains(text(),'Your shopping cart is empty.')]]
+2021-12-24 23:12:932 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:437 INFO  SignInPage :30 - enter email:[[ChromeDriver: chrome on WINDOWS (ca82700cf4241296c02f17379fb844d4)] -> id: email_create]
+2021-12-24 23:12:575 INFO  SignInPage :35 - click on button[[ChromeDriver: chrome on WINDOWS (ca82700cf4241296c02f17379fb844d4)] -> id: SubmitCreate]
+2021-12-24 23:12:809 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:777 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:251 INFO  CasualDress :29 - Mouse Hover to :[[ChromeDriver: chrome on WINDOWS (8af82f2a53224c3eb278a5a238592c7b)] -> xpath: //img[@title='Printed Dress']]
+2021-12-24 23:12:374 INFO  CasualDress :37 - click on add to cart[[ChromeDriver: chrome on WINDOWS (8af82f2a53224c3eb278a5a238592c7b)] -> xpath: //a[@title='Add to cart']//span]
+2021-12-24 23:12:711 INFO  ProductOrderPage :37 - click on checkout[[ChromeDriver: chrome on WINDOWS (8af82f2a53224c3eb278a5a238592c7b)] -> xpath: //a[@title='Proceed to checkout']//span]
+2021-12-24 23:12:822 INFO  ProductOrderPage :42 - delete button[[ChromeDriver: chrome on WINDOWS (8af82f2a53224c3eb278a5a238592c7b)] -> xpath: //i[@class='icon-trash']]
+2021-12-24 23:12:853 INFO  ProductOrderPage :47 - delete message[[ChromeDriver: chrome on WINDOWS (8af82f2a53224c3eb278a5a238592c7b)] -> xpath: //p[contains(text(),'Your shopping cart is empty.')]]
+2021-12-24 23:12:361 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:975 INFO  HomePage :55 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (6893c532d03785041b2acc5f7459286e)] -> xpath: (//ul)[4]//li//a]
+2021-12-24 23:12:06 INFO  HomePage :55 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (6893c532d03785041b2acc5f7459286e)] -> xpath: (//ul)[4]//li//a]
+2021-12-24 23:12:832 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-24 23:12:354 INFO  HomePage :55 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (72ee5cac70e480bc2318c2904c7a4840)] -> xpath: (//ul)[4]//li//a]
+2021-12-24 23:12:378 INFO  HomePage :55 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (72ee5cac70e480bc2318c2904c7a4840)] -> xpath: (//ul)[4]//li//a]
+2021-12-24 23:12:161 INFO  SummerDressPage :46 - move slider to left until :[[ChromeDriver: chrome on WINDOWS (72ee5cac70e480bc2318c2904c7a4840)] -> xpath: //div[@id='left_column']//a[2]]
+2021-12-26 20:12:563 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 20:12:229 INFO  CasualDress :37 - Mouse Hover On :[[ChromeDriver: chrome on WINDOWS (e0cb35f4faf6f497037bea6042ea63d4)] -> xpath: //img[@title='Printed Dress']]
+2021-12-26 20:12:372 INFO  CasualDress :45 - click on cart [[ChromeDriver: chrome on WINDOWS (e0cb35f4faf6f497037bea6042ea63d4)] -> xpath: //a[@title='Add to cart']//span]
+2021-12-26 20:12:410 INFO  CasualDress :49 - close window[[ChromeDriver: chrome on WINDOWS (e0cb35f4faf6f497037bea6042ea63d4)] -> xpath: //span[@title='Close window']]
+2021-12-26 20:12:613 INFO  CasualDress :54 - mouseHover on :[[ChromeDriver: chrome on WINDOWS (e0cb35f4faf6f497037bea6042ea63d4)] -> xpath: //span[@class='ajax_cart_product_txt unvisible']]
+2021-12-26 20:12:752 INFO  CasualDress :59 - click on close :[[ChromeDriver: chrome on WINDOWS (e0cb35f4faf6f497037bea6042ea63d4)] -> xpath: //a[@class='ajax_cart_block_remove_link']]
+2021-12-26 20:12:807 INFO  ProductOrderPage :47 - delete messageProxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'Your shopping cart is empty.')]'
+2021-12-26 22:12:976 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 22:12:531 INFO  SignInPage :30 - enter email:[[ChromeDriver: chrome on WINDOWS (e3e241818dd4368fbcb896488ae5b2bd)] -> id: email_create]
+2021-12-26 22:12:729 INFO  SignInPage :35 - click on button[[ChromeDriver: chrome on WINDOWS (e3e241818dd4368fbcb896488ae5b2bd)] -> id: SubmitCreate]
+2021-12-26 22:12:391 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 22:12:236 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 22:12:699 INFO  SignInPage :30 - enter email:[[ChromeDriver: chrome on WINDOWS (e70a2da14b0e8067074765ba94f080ff)] -> id: email_create]
+2021-12-26 22:12:894 INFO  SignInPage :35 - click on button[[ChromeDriver: chrome on WINDOWS (e70a2da14b0e8067074765ba94f080ff)] -> id: SubmitCreate]
+2021-12-26 22:12:34 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 22:12:85 INFO  SignInPage :32 - enter email:[[ChromeDriver: chrome on WINDOWS (bbfb01731d1a114918d78b302fb0ea42)] -> id: email_create]
+2021-12-26 22:12:328 INFO  SignInPage :37 - click on button[[ChromeDriver: chrome on WINDOWS (bbfb01731d1a114918d78b302fb0ea42)] -> id: SubmitCreate]
+2021-12-26 22:12:613 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 22:12:432 INFO  SignInPage :32 - enter email:[[ChromeDriver: chrome on WINDOWS (5dd5e9ffca86ecdb00f8c85da913cff5)] -> id: email_create]
+2021-12-26 22:12:593 INFO  SignInPage :37 - click on button[[ChromeDriver: chrome on WINDOWS (5dd5e9ffca86ecdb00f8c85da913cff5)] -> id: SubmitCreate]
+2021-12-26 22:12:866 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 22:12:571 INFO  SignInPage :32 - enter email:[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: email_create]
+2021-12-26 22:12:753 INFO  SignInPage :37 - click on button[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: SubmitCreate]
+2021-12-26 22:12:258 INFO  CreateAccountPage :79 - Select option :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //label[@for='id_gender2']]
+2021-12-26 22:12:479 INFO  CreateAccountPage :87 - Entering Customer first name :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //input[@id='customer_firstname']]
+2021-12-26 22:12:694 INFO  CreateAccountPage :93 - Entering customer last name :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //input[@id='customer_lastname']]
+2021-12-26 22:12:52 INFO  CreateAccountPage :105 - Entering password :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //input[@id='passwd']]
+2021-12-26 22:12:463 INFO  CreateAccountPage :113 - Selecting day :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //select[@id='days']]
+2021-12-26 22:12:856 INFO  CreateAccountPage :120 - Selecting month :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //select[@id='months']]
+2021-12-26 22:12:265 INFO  CreateAccountPage :127 - Selecting year :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //select[@id='years']]
+2021-12-26 22:12:426 INFO  CreateAccountPage :133 - Entering first name :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: firstname]
+2021-12-26 22:12:584 INFO  CreateAccountPage :139 - Entering last name :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: lastname]
+2021-12-26 22:12:764 INFO  CreateAccountPage :145 - Entering company :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: company]
+2021-12-26 22:12:989 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: address1]
+2021-12-26 22:12:114 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: address1]
+2021-12-26 22:12:380 INFO  CreateAccountPage :163 - Entering city :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: city]
+2021-12-26 22:12:728 INFO  CreateAccountPage :170 - Selecting state :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //select[@id='id_state']]
+2021-12-26 22:12:947 INFO  CreateAccountPage :176 - Entering postcode :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //input[@id='postcode']]
+2021-12-26 22:12:259 INFO  CreateAccountPage :183 - Selecting country :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //select[@id='id_country']]
+2021-12-26 22:12:472 INFO  CreateAccountPage :189 - Entering other :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //textarea[@id='other']]
+2021-12-26 22:12:649 INFO  CreateAccountPage :195 - Entering phone :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: phone]
+2021-12-26 22:12:847 INFO  CreateAccountPage :201 - Entering mobile no :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: phone_mobile]
+2021-12-26 22:12:49 INFO  CreateAccountPage :207 - Entering alias :[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> id: alias]
+2021-12-26 22:12:680 INFO  CreateAccountPage :213 - Click RegisterProxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-12-26 22:12:764 INFO  CreateAccountPage :219 - Verify Sign Out[[ChromeDriver: chrome on WINDOWS (be20e5cd344ac1e27c1ea66408ecb61a)] -> xpath: //span[@class='navigation_page']]
+2021-12-26 22:12:64 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 22:12:971 INFO  SignInPage :32 - enter email:[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: email_create]
+2021-12-26 22:12:143 INFO  SignInPage :37 - click on button[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: SubmitCreate]
+2021-12-26 22:12:442 INFO  CreateAccountPage :79 - Select option :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //label[@for='id_gender2']]
+2021-12-26 22:12:658 INFO  CreateAccountPage :87 - Entering Customer first name :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //input[@id='customer_firstname']]
+2021-12-26 22:12:10 INFO  CreateAccountPage :93 - Entering customer last name :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //input[@id='customer_lastname']]
+2021-12-26 22:12:230 INFO  CreateAccountPage :105 - Entering password :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //input[@id='passwd']]
+2021-12-26 22:12:653 INFO  CreateAccountPage :113 - Selecting day :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //select[@id='days']]
+2021-12-26 22:12:51 INFO  CreateAccountPage :120 - Selecting month :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //select[@id='months']]
+2021-12-26 22:12:468 INFO  CreateAccountPage :127 - Selecting year :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //select[@id='years']]
+2021-12-26 22:12:633 INFO  CreateAccountPage :133 - Entering first name :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: firstname]
+2021-12-26 22:12:809 INFO  CreateAccountPage :139 - Entering last name :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: lastname]
+2021-12-26 22:12:981 INFO  CreateAccountPage :145 - Entering company :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: company]
+2021-12-26 22:12:230 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: address1]
+2021-12-26 22:12:380 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: address1]
+2021-12-26 22:12:547 INFO  CreateAccountPage :163 - Entering city :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: city]
+2021-12-26 22:12:921 INFO  CreateAccountPage :170 - Selecting state :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //select[@id='id_state']]
+2021-12-26 22:12:109 INFO  CreateAccountPage :176 - Entering postcode :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //input[@id='postcode']]
+2021-12-26 22:12:410 INFO  CreateAccountPage :183 - Selecting country :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //select[@id='id_country']]
+2021-12-26 22:12:622 INFO  CreateAccountPage :189 - Entering other :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //textarea[@id='other']]
+2021-12-26 22:12:810 INFO  CreateAccountPage :195 - Entering phone :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: phone]
+2021-12-26 22:12:09 INFO  CreateAccountPage :201 - Entering mobile no :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: phone_mobile]
+2021-12-26 22:12:191 INFO  CreateAccountPage :207 - Entering alias :[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> id: alias]
+2021-12-26 22:12:579 INFO  CreateAccountPage :213 - Click RegisterProxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-12-26 22:12:652 INFO  CreateAccountPage :219 - Verify Sign Out[[ChromeDriver: chrome on WINDOWS (cd3cea9d8ae58755ec38fdcf90b6e034)] -> xpath: //span[@class='navigation_page']]
+2021-12-26 23:12:467 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 23:12:706 INFO  SignInPage :32 - enter email:[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: email_create]
+2021-12-26 23:12:925 INFO  SignInPage :37 - click on button[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: SubmitCreate]
+2021-12-26 23:12:646 INFO  CreateAccountPage :79 - Select option :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //label[@for='id_gender2']]
+2021-12-26 23:12:886 INFO  CreateAccountPage :87 - Entering Customer first name :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //input[@id='customer_firstname']]
+2021-12-26 23:12:256 INFO  CreateAccountPage :93 - Entering customer last name :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //input[@id='customer_lastname']]
+2021-12-26 23:12:522 INFO  CreateAccountPage :105 - Entering password :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //input[@id='passwd']]
+2021-12-26 23:12:130 INFO  CreateAccountPage :113 - Selecting day :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //select[@id='days']]
+2021-12-26 23:12:580 INFO  CreateAccountPage :120 - Selecting month :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //select[@id='months']]
+2021-12-26 23:12:77 INFO  CreateAccountPage :127 - Selecting year :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //select[@id='years']]
+2021-12-26 23:12:291 INFO  CreateAccountPage :133 - Entering first name :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: firstname]
+2021-12-26 23:12:491 INFO  CreateAccountPage :139 - Entering last name :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: lastname]
+2021-12-26 23:12:700 INFO  CreateAccountPage :145 - Entering company :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: company]
+2021-12-26 23:12:957 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: address1]
+2021-12-26 23:12:100 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: address1]
+2021-12-26 23:12:300 INFO  CreateAccountPage :163 - Entering city :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: city]
+2021-12-26 23:12:700 INFO  CreateAccountPage :170 - Selecting state :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //select[@id='id_state']]
+2021-12-26 23:12:921 INFO  CreateAccountPage :176 - Entering postcode :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //input[@id='postcode']]
+2021-12-26 23:12:245 INFO  CreateAccountPage :183 - Selecting country :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //select[@id='id_country']]
+2021-12-26 23:12:476 INFO  CreateAccountPage :189 - Entering other :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> xpath: //textarea[@id='other']]
+2021-12-26 23:12:682 INFO  CreateAccountPage :195 - Entering phone :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: phone]
+2021-12-26 23:12:897 INFO  CreateAccountPage :201 - Entering mobile no :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: phone_mobile]
+2021-12-26 23:12:113 INFO  CreateAccountPage :207 - Entering alias :[[ChromeDriver: chrome on WINDOWS (549e450ba12ea70bf7ca2b2aaea1a00c)] -> id: alias]
+2021-12-26 23:12:206 INFO  CreateAccountPage :213 - Click RegisterProxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-12-26 23:12:685 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 23:12:697 INFO  OurStorePage :82 - scroll on map:[[ChromeDriver: chrome on WINDOWS (98a69e3847a8f94abb31174f2900a281)] -> id: map]
+2021-12-26 23:12:164 INFO  OurStorePage :89 - scroll on map:[[ChromeDriver: chrome on WINDOWS (98a69e3847a8f94abb31174f2900a281)] -> id: map]
+2021-12-26 23:12:279 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 23:12:496 INFO  CasualDress :37 - Mouse Hover On :[[ChromeDriver: chrome on WINDOWS (f541b3faf79858b5dc22b759de59ca97)] -> xpath: //img[@title='Printed Dress']]
+2021-12-26 23:12:627 INFO  CasualDress :45 - click on cart [[ChromeDriver: chrome on WINDOWS (f541b3faf79858b5dc22b759de59ca97)] -> xpath: //a[@title='Add to cart']//span]
+2021-12-26 23:12:584 INFO  CasualDress :49 - close window[[ChromeDriver: chrome on WINDOWS (f541b3faf79858b5dc22b759de59ca97)] -> xpath: //span[@title='Close window']]
+2021-12-26 23:12:857 INFO  CasualDress :54 - mouseHover on :[[ChromeDriver: chrome on WINDOWS (f541b3faf79858b5dc22b759de59ca97)] -> xpath: //span[@class='ajax_cart_product_txt unvisible']]
+2021-12-26 23:12:72 INFO  CasualDress :59 - click on close :[[ChromeDriver: chrome on WINDOWS (f541b3faf79858b5dc22b759de59ca97)] -> xpath: //a[@class='ajax_cart_block_remove_link']]
+2021-12-26 23:12:100 INFO  ProductOrderPage :47 - delete messageProxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'Your shopping cart is empty.')]'
+2021-12-26 23:12:41 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 23:12:582 INFO  HomePage :57 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (7de67714c58dc5f82528247abe05f0fa)] -> xpath: (//ul)[4]//li//a]
+2021-12-26 23:12:633 INFO  HomePage :57 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (7de67714c58dc5f82528247abe05f0fa)] -> xpath: (//ul)[4]//li//a]
+2021-12-26 23:12:826 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-26 23:12:245 INFO  HomePage :57 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (5e0d951ee90db6f6beeec9a3fb149165)] -> xpath: (//ul)[4]//li//a]
+2021-12-26 23:12:262 INFO  HomePage :57 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (5e0d951ee90db6f6beeec9a3fb149165)] -> xpath: (//ul)[4]//li//a]
+2021-12-26 23:12:687 INFO  SummerDressPage :46 - move slider to left until :[[ChromeDriver: chrome on WINDOWS (5e0d951ee90db6f6beeec9a3fb149165)] -> xpath: //div[@id='left_column']//a[2]]
+2021-12-27 14:12:605 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-27 14:12:612 INFO  SignInPage :32 - enter email:[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: email_create]
+2021-12-27 14:12:835 INFO  SignInPage :37 - click on button[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: SubmitCreate]
+2021-12-27 14:12:744 INFO  CreateAccountPage :79 - Select option :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //label[@for='id_gender2']]
+2021-12-27 14:12:987 INFO  CreateAccountPage :87 - Entering Customer first name :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //input[@id='customer_firstname']]
+2021-12-27 14:12:294 INFO  CreateAccountPage :93 - Entering customer last name :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //input[@id='customer_lastname']]
+2021-12-27 14:12:546 INFO  CreateAccountPage :105 - Entering password :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //input[@id='passwd']]
+2021-12-27 14:12:937 INFO  CreateAccountPage :113 - Selecting day :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //select[@id='days']]
+2021-12-27 14:12:234 INFO  CreateAccountPage :120 - Selecting month :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //select[@id='months']]
+2021-12-27 14:12:608 INFO  CreateAccountPage :127 - Selecting year :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //select[@id='years']]
+2021-12-27 14:12:752 INFO  CreateAccountPage :133 - Entering first name :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: firstname]
+2021-12-27 14:12:898 INFO  CreateAccountPage :139 - Entering last name :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: lastname]
+2021-12-27 14:12:86 INFO  CreateAccountPage :145 - Entering company :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: company]
+2021-12-27 14:12:307 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: address1]
+2021-12-27 14:12:409 INFO  CreateAccountPage :151 - Entering address1 :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: address1]
+2021-12-27 14:12:594 INFO  CreateAccountPage :163 - Entering city :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: city]
+2021-12-27 14:12:945 INFO  CreateAccountPage :170 - Selecting state :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //select[@id='id_state']]
+2021-12-27 14:12:123 INFO  CreateAccountPage :176 - Entering postcode :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //input[@id='postcode']]
+2021-12-27 14:12:395 INFO  CreateAccountPage :183 - Selecting country :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //select[@id='id_country']]
+2021-12-27 14:12:592 INFO  CreateAccountPage :189 - Entering other :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //textarea[@id='other']]
+2021-12-27 14:12:757 INFO  CreateAccountPage :195 - Entering phone :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: phone]
+2021-12-27 14:12:918 INFO  CreateAccountPage :201 - Entering mobile no :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: phone_mobile]
+2021-12-27 14:12:106 INFO  CreateAccountPage :207 - Entering alias :[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> id: alias]
+2021-12-27 14:12:693 INFO  CreateAccountPage :213 - Click RegisterProxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-12-27 14:12:746 INFO  CreateAccountPage :219 - Verify Sign Out[[ChromeDriver: chrome on WINDOWS (83b84de3d49e4e54a34e8184592a1e3c)] -> xpath: //span[@class='navigation_page']]
+2021-12-27 14:12:127 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-27 14:12:607 INFO  OurStorePage :82 - scroll on map:[[ChromeDriver: chrome on WINDOWS (c44a65080953c358d575081aaa46d1cd)] -> id: map]
+2021-12-27 14:12:26 INFO  OurStorePage :89 - scroll on map:[[ChromeDriver: chrome on WINDOWS (c44a65080953c358d575081aaa46d1cd)] -> id: map]
+2021-12-27 14:12:711 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-27 14:12:985 INFO  CasualDress :37 - Mouse Hover On :[[ChromeDriver: chrome on WINDOWS (4f92755f953727721d0be4e3a212737a)] -> xpath: //img[@title='Printed Dress']]
+2021-12-27 14:12:83 INFO  CasualDress :45 - click on cart [[ChromeDriver: chrome on WINDOWS (4f92755f953727721d0be4e3a212737a)] -> xpath: //a[@title='Add to cart']//span]
+2021-12-27 14:12:95 INFO  CasualDress :49 - close window[[ChromeDriver: chrome on WINDOWS (4f92755f953727721d0be4e3a212737a)] -> xpath: //span[@title='Close window']]
+2021-12-27 14:12:273 INFO  CasualDress :54 - mouseHover on :[[ChromeDriver: chrome on WINDOWS (4f92755f953727721d0be4e3a212737a)] -> xpath: //span[@class='ajax_cart_product_txt unvisible']]
+2021-12-27 14:12:376 INFO  CasualDress :59 - click on close :[[ChromeDriver: chrome on WINDOWS (4f92755f953727721d0be4e3a212737a)] -> xpath: //a[@class='ajax_cart_block_remove_link']]
+2021-12-27 14:12:432 INFO  ProductOrderPage :47 - delete messageProxy element for: DefaultElementLocator 'By.xpath: //p[contains(text(),'Your shopping cart is empty.')]'
+2021-12-27 14:12:180 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-27 14:12:984 INFO  ManageDriver :34 - Launching Chrome Browser
+2021-12-27 14:12:799 INFO  HomePage :57 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (6dd273718e1f55ef72b0f7b0f6b66cb8)] -> xpath: (//ul)[4]//li//a]
+2021-12-27 14:12:844 INFO  HomePage :57 - click on casual dress: [[ChromeDriver: chrome on WINDOWS (6dd273718e1f55ef72b0f7b0f6b66cb8)] -> xpath: (//ul)[4]//li//a]
