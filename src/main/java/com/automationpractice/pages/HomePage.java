@@ -30,7 +30,7 @@ public class HomePage extends Utility {
     //for Sign in and Contactus WebElement
     @FindBy(xpath = "//div[@class='row']//nav//div//a")
   List<WebElement> signIn;
-    @FindBy(id = "my-account")
+    @FindBy(id ="my-account")
     WebElement myName;
 
     public void mouseHoverOnTopCategory(String menu) throws InterruptedException {

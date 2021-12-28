@@ -4,32 +4,14 @@ Feature: Create Account Test
   Background:
     Given I am in home page
 
-
   Scenario: User should create account successfully
     When I click On "Sign in"
     And I enter "Email"
     Then I click on create account button
-    And I select gender
-    And I enter customer first name
-    And I enter customer last name
-    And I enter password
-    And I select day of Birth
-    And I select month of Birth
-    And I select year of Birth
-    And I enter first name
-    And I enter last name
-    And I enter Company
-    And I enter Address One
-    And I enter Address Two
-    And I enter City
-    And I enter State
-    And I enter Post Code
-    And I enter Country
-    And I enter other details
-    And I enter phone no
-    And I enter mobile no
-    And I enter alia
-    And I click on register button
-    And I should see My Account
-    Then I should see message my name on homePage
+    When User enters following user details
 
+      | firstName | lastName | eMail                   | password | days | month | year | FirstNm | LastNm | Company  | Address    | City   | State    | ZipCode | Country       | MobilePhone | Alias      |
+      | Dimpy    | Patel    | dimple1234567@gmail.com | java123  | 26   | 11    | 1983 | Dimple  | Patel  | Glenwood | 419 Street | London | New York | 12456   | United States | 0795468578  | 419 Street |
+    And clicks register button
+    Then I should be able to see account name "Dimple Patel" on top right
+    And verify the text

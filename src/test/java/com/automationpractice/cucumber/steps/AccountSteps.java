@@ -3,10 +3,16 @@ package com.automationpractice.cucumber.steps;
 import com.automationpractice.pages.CreateAccountPage;
 import com.automationpractice.pages.HomePage;
 import com.automationpractice.pages.SignInPage;
+import cucumber.api.DataTable;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import gherkin.lexer.Th;
 import org.junit.Assert;
+
+import java.util.List;
+import java.util.Map;
 
 /**
  * By Dimple
@@ -22,128 +28,68 @@ public class AccountSteps {
         new SignInPage().enterEmil(email);
 
     }
-
     @And("^I click on create account button$")
     public void iClickOnCreateAccountButton() {
         new SignInPage().clickonCreateAccountBtn();
     }
 
-
-    @And("^I select gender$")
-    public void iSelectGender() {
-        new CreateAccountPage().getGender("Female");
+    @When("^User enters following user details$")
+    public void userEntersFollowingUserDetails(DataTable dataTable) throws InterruptedException {
+        List<Map<String,String>> userList = dataTable.asMaps(String.class, String.class);
+        new CreateAccountPage().getGender("female");
+        for (Map<String,String>e:userList)
+        {
+           String firstName= e.get("firstName");
+           String lastName=e.get("lastName");
+           String email=e.get("eMail");
+           String pass=e.get("password");
+           String days=e.get("days");
+           String month=e.get("month");
+           String year=e.get("year");
+           String fNm=e.get("FirstNm");
+           String lNm=e.get("LastNm");
+           String company=e.get("Company");
+           String address=e.get("Address");
+           String city=e.get("City");
+           String state=e.get("State");
+           String zipCode=e.get("ZipCode");
+           String country=e.get("Country");
+           String mobile=e.get("MobilePhone");
+           String alias=e.get("Alias");
+           new CreateAccountPage().getCustomerFNM(firstName);
+           new CreateAccountPage().getCustomerLNM(lastName);
+           new CreateAccountPage().getEmail(email);
+           new CreateAccountPage().getPassword(pass);
+           new CreateAccountPage().getDays(days);
+           new CreateAccountPage().getMonths(month);
+           new CreateAccountPage().getYears(year);
+           new CreateAccountPage().getFName(fNm);
+           new CreateAccountPage().getLName(lNm);
+           new CreateAccountPage().getCompany(company);
+           new CreateAccountPage().getAddress1(address);
+           new CreateAccountPage().getCity(city);
+           new CreateAccountPage().getState(state);
+           new CreateAccountPage().getPostcode(zipCode);
+           new CreateAccountPage().getCountry(country);
+           new CreateAccountPage().getMobileNo(mobile);
+           new CreateAccountPage().getAlias(alias);
+        }
     }
-
-    @And("^I enter customer first name$")
-    public void iEnterCustomerFirstName() {
-        new CreateAccountPage().getCustomerFNM("Dimple");
-    }
-
-    @And("^I enter customer last name$")
-    public void iEnterCustomerLastName() {
-        new CreateAccountPage().getCustomerLNM("Patel");
-    }
-
-    @And("^I enter password$")
-    public void iEnterPassword() {
-        new CreateAccountPage().getPassword("dimple123@gmail.com");
-    }
-
-    @And("^I select day of Birth$")
-    public void iSelectDayOfBirth() {
-        new CreateAccountPage().getDays("3");
-    }
-
-    @And("^I select month of Birth$")
-    public void iSelectMonthOfBirth() {
-        new CreateAccountPage().getMonths("5");
-    }
-
-    @And("^I select year of Birth$")
-    public void iSelectYearOfBirth() {
-        new CreateAccountPage().getYears("1983");
-    }
-
-    @And("^I enter first name$")
-    public void iEnterFirstName() {
-        new CreateAccountPage().getFName("Dimple");
-    }
-
-    @And("^I enter last name$")
-    public void iEnterLastName() {
-        new CreateAccountPage().getLName("Patel");
-    }
-
-    @And("^I enter Company$")
-    public void iEnterCompany() {
-        new CreateAccountPage().getCompany("Glenwood");
-    }
-    @And("^I enter Address One$")
-    public void iEnterAddressOne() {
-        new CreateAccountPage().getAddress1("397 London St");
-    }
-
-    @And("^I enter Address Two$")
-    public void iEnterAddressTwo() {
-        new CreateAccountPage().getAddress1("Harrow");
-    }
-
-    @And("^I enter City$")
-    public void iEnterCity() {
-        new CreateAccountPage().getCity("London");
-    }
-
-    @And("^I enter State$")
-    public void iEnterState() {
-        new CreateAccountPage().getState("New york");
-    }
-
-    @And("^I enter Post Code$")
-    public void iEnterPostCode() {
-        new CreateAccountPage().getPostcode("12456");
-    }
-
-    @And("^I enter Country$")
-    public void iEnterCountry() {
-        new CreateAccountPage().getCountry("United States");
-    }
-
-    @And("^I enter other details$")
-    public void iEnterOtherDetails() {
-        new CreateAccountPage().getOther("My details and information");
-    }
-
-    @And("^I enter phone no$")
-    public void iEnterPhoneNo() {
-        new CreateAccountPage().getPhone("+121542222");
-    }
-
-    @And("^I enter mobile no$")
-    public void iEnterMobileNo() {
-        new CreateAccountPage().getMobileNo("+12444555444");
-    }
-
-    @And("^I enter alia$")
-    public void iEnterAlia() {
-        new CreateAccountPage().getAlias("My 1st Address");
-    }
-
-    @And("^I click on register button$")
-    public void iClickOnRegisterButton() {
+    @And("^clicks register button$")
+    public void clicksRegisterButton()
+    {
         new CreateAccountPage().clickRegister();
     }
+    @Then("^I should be able to see account name \"([^\"]*)\" on top right$")
+    public void iShouldBeAbleToSeeAccountNameOnTopRight(String expected)  {
+        Assert.assertEquals(expected,new HomePage().verifyMyName());
 
-    @Then("^I should see My Account$")
-    public void iShouldSeeMyAccount() {
+    }
+    @And("^verify the text$")
+    public void verifyTheText()
+    {
         String sinIn = new CreateAccountPage().textMyAc();
         String expectedMessage ="My account";
         Assert.assertEquals("Show My account ",expectedMessage,sinIn);
-    }
-
-    @Then("^I should see message my name on homePage$")
-    public void iShouldSeeMessageMyNameOnHomePage(String expected) {
-
-        Assert.assertEquals(expected,new HomePage().verifyMyName());
-
     }
 }
